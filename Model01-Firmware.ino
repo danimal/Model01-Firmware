@@ -325,6 +325,7 @@ KALEIDOSCOPE_INIT_PLUGINS(
   // Dan's preferred LED color effects
   LEDOff,
   solidYellow,
+  solidOrange,
   solidIndigo,
   solidViolet,
   LEDRainbowEffect,
