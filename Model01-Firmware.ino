@@ -243,10 +243,11 @@ const macro_t *macroAction(uint8_t macroIndex, uint8_t keyState) {
 // LED color modes calibrated to draw 500mA or less on the
 // Keyboardio Model 01.
 
+static kaleidoscope::LEDSolidColor danimalYellow(111, 85, 0);
 
 static kaleidoscope::LEDSolidColor solidRed(160, 0, 0);
 static kaleidoscope::LEDSolidColor solidOrange(140, 70, 0);
-static kaleidoscope::LEDSolidColor solidYellow(130, 100, 0);
+// static kaleidoscope::LEDSolidColor solidYellow(130, 100, 0);
 static kaleidoscope::LEDSolidColor solidGreen(0, 160, 0);
 static kaleidoscope::LEDSolidColor solidBlue(0, 70, 130);
 static kaleidoscope::LEDSolidColor solidIndigo(0, 0, 170);
@@ -324,7 +325,7 @@ KALEIDOSCOPE_INIT_PLUGINS(
 
   // Dan's preferred LED color effects
   LEDOff,
-  solidYellow,
+  danimalYellow,
   solidOrange,
   solidIndigo,
   solidViolet,
